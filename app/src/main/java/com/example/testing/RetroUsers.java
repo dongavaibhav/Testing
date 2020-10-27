@@ -3,12 +3,11 @@ package com.example.testing;
 import com.google.gson.annotations.SerializedName;
 
 public class RetroUsers {
-    @SerializedName("name")
+    @SerializedName("title")
     private String name;
 
     public RetroUsers(String name) {
         this.name = name;
-
     }
 
 //Retrieve the data using setter/getter methods//

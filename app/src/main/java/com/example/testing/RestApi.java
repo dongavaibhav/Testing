@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public interface RestApi {
 
-    @GET("/users")
+    @GET("/todos")
     Call<List<RetroUsers>> getAllUsers();
 
 }
